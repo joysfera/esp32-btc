@@ -22,7 +22,7 @@ https://github.com/espressif/arduino-esp32#installation-instructions
 
 Then you'll need to install either SSD1306 or TFT_eSPI libraries and also NTPClient and Tasker libraries. They are available via the Arduino Library Manager.
 
-Configuring the TFT_eSPI for use with the TTGO T-Display is kinda tricky currently (it'll need a specific driver for the weird resolution and screen start offset, eventually) but it's explained at the T-Display web linked above.
+Please note that the TTGO T-Display requires version **1.4.16** (or higher) of the TFT_eSPI library, otherwise the screen content is shifted by 52 pixels.
 
 Enjoy!
 
